@@ -1,0 +1,120 @@
+body {
+    background: url(/images/Alangilan-bsu.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-shadow: 5px 3px 20px rgb(72, 67, 67);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: transparent;
+    font-family: Helvetica;
+}
+
+header nav h1 {
+    color: red;
+}
+
+.main-list {
+    list-style: none;
+}
+
+.main-list a {
+    text-decoration: none;
+    color: red;
+    padding: 2rem;
+    font: bold 1.125rem Helvetica;
+}
+
+.main-list a:hover {
+    color: black;
+}
+
+.main-links a:hover {
+    color: black;
+}
+
+#main {
+    display: grid;
+    margin: 5%;
+    grid-template-rows: auto auto;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 5px 3px 20px black;
+    font: bold 1.25rem Helvetica;
+}
+
+#main h2 {
+    text-transform: uppercase;
+    color: red;
+}
+
+#select-building {
+    text-align: center;
+    padding: 2rem;
+}
+
+#select-building select {
+    width: 30em;
+    height: 3em;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(254, 225, 225);
+    background: white;
+}
+
+#add-classroom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.classroom-name {
+    margin-bottom: 3vw;
+}
+
+.classroom-name h4 {
+    margin: 0 0 3% 0;
+    font: bold 1.25rem Franklin Gothic Medium;
+}
+
+.classroom-name input {
+    width: 20em;
+    height: 2em;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(254, 225, 225);
+}
+
+.classroom-time {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 3vw;
+    column-gap: 2em;
+}
+
+.classroom-time h4 {
+    margin: 0 0 3% 0;
+    font: bold 1.25rem Franklin Gothic Medium;
+}
+
+.add-button {
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px;
+    border: none;
+    background: lightgreen;
+    cursor: pointer;
+}
+
+#add-classroom button:hover {
+    color: beige;
+    background: black;
+}

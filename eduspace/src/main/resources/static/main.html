@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSpace Dashboard</title>
+
+    <link rel="stylesheet" href="../static/stylesheets/main.css">
+</head>
+<body>
+    <header id="main-header">
+        <nav class="main-navbar">
+            <h1>EduSpace</h1>
+            <ul class="main-links">
+                <li class="main-list">
+                    <a href="login.html">Login</a>
+                    <a href="signup.html">Signup</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main id="main">
+        <div id="select-building">
+            <h2>Select Building</h2>
+            <select>
+                <option value="">College of Engineering Technology</option>
+                <option value="">College of Informatics and Computing Sciences</option>
+                <option value="">Albert Einstein Building</option>
+            </select>
+        </div>
+        <div id="add-classroom">
+            <h2>Add Classroom</h2>
+            <form action="">
+                <div class="classroom-name">
+                    <h4>Classroom</h4>
+                    <input type="text" placeholder="Enter classroom here">
+                </div>
+                <div class="classroom-time">
+                    <div class="classroom-time-start">
+                        <h4>Start of Class</h4>
+                        <input type="time" placeholder="Enter time here">
+                    </div>
+                    <div class="classroom-time-end">
+                        <h4>End of Class</h4>
+                        <input type="time" placeholder="Enter time here">
+                    </div>
+                </div>
+                <button class="add-button">Add Classroom</button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
